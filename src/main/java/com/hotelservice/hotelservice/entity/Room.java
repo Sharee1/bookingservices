@@ -16,6 +16,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Room {
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long roomId;
@@ -23,5 +25,8 @@ public class Room {
     private  String  roomType;
     private int roomSize;
     private  boolean roomOccupied;
+
+
+
 
 }
